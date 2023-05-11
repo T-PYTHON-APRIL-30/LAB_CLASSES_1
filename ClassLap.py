@@ -7,13 +7,13 @@ Create 4 instances of the class Panda , print 1 attribute value, and call the tw
 
 class Panda:
     def __init__(self,Type:str,size:str,weight:float,height:float):
-        self.Type="giantPanda"
-        self.size="Big"
-        self.weight=100
-        self.height=200
-    def PandaInfo():
-        return f"the panda type{Panda.Type},the panda size{Panda.size}and it is weight is :{Panda.weight},It is height{Panda.height}"
-    def PandaLife():
+        self.Type=Type
+        self.size=size
+        self.weight=weight
+        self.height=height
+    def PandaInfo(self):
+        return f"the panda type{self.Type},the panda size{self.size}and it is weight is :{self.weight},It is height{self.height}"
+    def PandaLife(self):
         panda_life="for along time it was believed that the panda bear was a member of the raccoon family\n but genetic research revealed that the panda this wonderfully \nbeloved animal is actually abear and is a member of the urcid family.\n"
         return panda_life
         
