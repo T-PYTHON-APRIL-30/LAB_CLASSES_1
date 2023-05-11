@@ -1,0 +1,44 @@
+# create a class to represent a Panda.
+class Panda:
+    def __init__(self, name, age, weight, hight):
+        self.name = name
+        self.age = age
+        self.weight = weight
+        self.hight = hight
+
+    # method 1
+    def method1(self):
+        print(f"{self.name} is using method1")
+    
+    # method 2
+    def method2(self):
+        print(f"{self.name} is using method2")
+
+# create 4 instances of the class Panda.
+panda1 = Panda("popo", 2, 33, 50)
+panda2 = Panda("smsm", 5, 43, 20)
+panda3 = Panda("lili", 7, 29, 10)
+panda4 = Panda("koko", 8, 42, 40)
+
+# print 1 attribute value.
+print("name attribute value of panda number1:", panda1.name)
+print("age attribute value of panda number2:", panda2.age)
+print("weight attribute value of panda number3:", panda3.weight)
+print("hight attribute value of panda number4:", panda4.hight)
+print()
+
+# call the two methods on each instance.
+panda1.method1()
+panda1.method2()
+print()
+
+panda2.method1()
+panda2.method2()
+print()
+
+panda3.method1()
+panda3.method2()
+print()
+
+panda4.method1()
+panda4.method2()
